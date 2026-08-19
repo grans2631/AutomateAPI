@@ -240,11 +240,11 @@ $duplicates | Select-Object `
 #timeout=900000
 #maxlength=9000000
 Invoke-Expression(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/Braingears/PowerShell/master/Automate-Module.psm1')
-Install-Automate -Server 'lt.360smartnet.com' -LocationID 1326 -Token '2df3aa5dc5206e83bbb73f714d0d99bc' -Transcript
+Install-Automate -Server 'lt.Automate.com' -LocationID 1326 -Token 'InstallerToken' -Transcript
  
 Confirmed the agent was using the correct version.
 ComputerName  : TOKN-SVDC1
-ServerAddress : https://lt.360smartnet.com
+ServerAddress : https://lt.Automate.com
 ComputerID    : 22529
 ClientID      : 251
 LocationID    : 990

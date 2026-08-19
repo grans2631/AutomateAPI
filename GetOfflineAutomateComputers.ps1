@@ -8,15 +8,15 @@ $Date = Get-Date -Format "yyyy-MM-dd-HHmmss"
 
 # Automate API settings
 # Use Automate user that does NOT require MFA.
-$AutomateServer   = "lt.360smartnet.com"
-$AutomateClientID = "d0a6cb5a-621b-4f2c-837b-a9ab1e32e1c5"
-$AutomateUsername = "PowerTools_API"
-$AutomatePassword = 'h$4n"X!7Hu555n'
+$AutomateServer   = "lt.Server.com"
+$AutomateClientID = "ClientID"
+$AutomateUsername = "User_API"
+$AutomatePassword = 'Password'
 
 # ScreenConnect / Control settings
-$ControlServer   = "https://scrcon.360smartnet.com/"
-$ControlUsername = "rewst_api"
-$ControlPassword = "-Tx#U[3<pVVP,=uQ"
+$ControlServer   = "ScreenConnectServer"
+$ControlUsername = "ScreenConnectUser"
+$ControlPassword = "Password"
 
 # Export settings
 $ExportFolder = "C:\Temp\AutomateAgentCleanup"

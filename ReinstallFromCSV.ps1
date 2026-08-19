@@ -9,17 +9,17 @@ Import-Module AutomateAPI -Force
 $WarningPreference = 'SilentlyContinue'
 
 # ScreenConnect / Control server, include https://
-$ControlServer = "https://scrcon.360smartnet.com/"
+$ControlServer = "https://sc.ScreenConnect.com/"
 
 # ScreenConnect / Control credentials
-$ControlUsername = "rewst_api"
-$ControlPassword = "-Tx#U[3<pVVP,=uQ"
+$ControlUsername = "API_User"
+$ControlPassword = "Password"
 
 # Automate server used by Reinstall-LTService or Restart-LTService, without https://
-$AutomateServer = "lt.360smartnet.com"
+$AutomateServer = "lt.Automate.com"
 
 # Hard-coded Automate installer token, only needed for reinstall scripts
-$InstallerToken = "2df3aa5dc5206e83bbb73f714d0d99bc"
+$InstallerToken = "InstallerToken"
 
 # CSV folder and file pattern
 # Expected CSV columns: ComputerName, SessionID, LocationID

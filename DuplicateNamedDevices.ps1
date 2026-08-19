@@ -9,7 +9,7 @@ Import-Module AutomateAPI -ErrorAction Stop
 # CONFIGURATION
 # ============================================================
 
-$AutomateServer = "https://lt.360smartnet.com"
+$AutomateServer = "https://lt.server.com"
 
 # Fill these in before running.
 $AutomateUsername = "Username"

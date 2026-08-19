@@ -4,9 +4,9 @@ Import-Module AutomateAPI -Force
 # CONFIGURATION
 # ============================================================
 
-$ControlServer = "https://scrcon.360smartnet.com/"
+$ControlServer = "https://Screenconnect.com"
 
-$AutomateClientID = "d0a6cb5a-621b-4f2c-837b-a9ab1e32e1c5"
+$AutomateClientID = "ClientID"
 
 # Computer name to search for in both Automate and ScreenConnect
 $ComputerName = Read-Host -Prompt "Enter computer name to search"

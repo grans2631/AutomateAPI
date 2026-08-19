@@ -5,10 +5,10 @@ Import-Module AutomateAPI -Force
 # ============================================================
 
 # ScreenConnect / Control server, include https://
-$ControlServer = "https://scrcon.360smartnet.com/"
+$ControlServer = "https://sc.ScreenConnect.com/"
 
 # Automate server used by AutomateDiagnostics, without https://
-$AutomateServer = "lt.360smartnet.com"
+$AutomateServer = "lt.Automate.com"
 
 # CSV folder and file pattern
 # Expected CSV columns: ComputerName, SessionID, LocationID

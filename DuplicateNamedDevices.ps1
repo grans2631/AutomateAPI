@@ -12,8 +12,8 @@ Import-Module AutomateAPI -ErrorAction Stop
 $AutomateServer = "https://lt.360smartnet.com"
 
 # Fill these in before running.
-$AutomateUsername = "PowerTools_API"
-$AutomatePasswordPlainText = 'h$4n"X!7Hu555n'
+$AutomateUsername = "Username"
+$AutomatePasswordPlainText = 'password'
 
 # Set this to $false if you only want exact/normalized duplicates.
 $RunFuzzySimilarNameCheck = $true

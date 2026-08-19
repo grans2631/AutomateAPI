@@ -15,17 +15,17 @@ Import-Module AutomateAPI -Force
 # ============================================================
 
 # ScreenConnect / Control server, include https://
-$ControlServer = "https://scrcon.360smartnet.com/"
+$ControlServer = "https://sc.ScreenConnect.com/"
 
 # Automate server used by Reinstall-LTService, without https://
-$AutomateServer = "lt.360smartnet.com"
+$AutomateServer = "lt.Automate.com"
 
 # LocationID to use for reinstall.
 # Since we are no longer looking up the Automate computer, this must be provided manually.
 $LocationID = 471
 
 # Hard-coded Automate installer token
-$InstallerToken = "2df3aa5dc5206e83bbb73f714d0d99bc"
+$InstallerToken = "InstallerToken"
 
 # Add one or more ScreenConnect SessionIDs here.
 # Example:
